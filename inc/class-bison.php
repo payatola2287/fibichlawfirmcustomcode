@@ -1,6 +1,7 @@
 <?php
-include('../plugin-update-checker/plugin-update-checker.php');
 namespace BisonPlugin;
+
+include('../plugin-update-checker/plugin-update-checker.php');
 
 use Puc_v4_Factory;
 
