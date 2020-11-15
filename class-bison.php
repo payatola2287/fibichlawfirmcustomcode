@@ -31,11 +31,11 @@ class BisonPlugin
       wp_enqueue_script( $scriptID, $script['src'], $script['deps'], $script['version'], $script['footer'] );
     }
   }
-  
-  public function do_update_checks(){
+
+  public function do_update_checks( $dir ){
     $pluginUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
       'https://github.com/payatola2287/fibichlawfirmcustomcode/',
-      __FILE__,
+      $dir,
 	    'fibichlawfirmcustomcode'
     );
     $pluginUpdateChecker->setBranch('production');

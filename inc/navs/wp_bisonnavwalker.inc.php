@@ -4,7 +4,7 @@
 class BisonNavWalker extends Walker_Nav_Menu
 {
   private function pull_arrow_svg(){
-    return '<svg id="svg-fancy_icon-82-30701"><use xlink:href="#FontAwesomeicon-long-arrow-right"></use></svg>';
+    return '<svg id="svg-fancy_icon-82-30701" class="arrow-right"><use xlink:href="#FontAwesomeicon-long-arrow-right"></use></svg>';
   }
 
   public function start_el(&$output, $item, $depth = 0, $args = null, $id = 0)
@@ -51,7 +51,7 @@ class BisonNavWalker extends Walker_Nav_Menu
     }
     $atts['href']         = !empty($item->url) ? $item->url : '';
     $atts['aria-current'] = $item->current ? 'page' : '';
-
+    $atts['class'] = 'bison-menu-item-link';
     /**
      * Filters the HTML attributes applied to a menu item's anchor element.
      *
@@ -98,8 +98,7 @@ class BisonNavWalker extends Walker_Nav_Menu
 
     $item_output  = $args->before;
     $item_output .= '<a' . $attributes . '>';
-    $item_output .= $this->pull_arrow_svg();
-    $item_output .= $args->link_before . $title . $args->link_after;
+    $item_output .= $args->link_before . $this->pull_arrow_svg() . $title . $args->link_after;
     $item_output .= '</a>';
     $item_output .= $args->after;
 

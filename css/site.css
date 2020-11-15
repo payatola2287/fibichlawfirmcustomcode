@@ -1,1 +1,13 @@
 /* BISON NAV WALKER CSS */
+.bison-menu-item-link{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+.arrow-right{
+  width: 16px;
+  height: 16px;
+  flex: 1 1 auto;
+}
