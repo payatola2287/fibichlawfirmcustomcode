@@ -5,7 +5,7 @@
    * Description: Custom plugin to add custom functionalities based on client requests
    * Author: Paolo Gallardo | Waymaker Designs
    * Author URI: https:github.com/payatola2287
-   * Version: 1.2
+   * Version: 2.0
    */
 
 use BisonPlugin\BisonPlugin;
