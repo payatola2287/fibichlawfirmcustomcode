@@ -1,7 +1,7 @@
 <?php
 namespace BisonPlugin;
 
-include('../plugin-update-checker/plugin-update-checker.php');
+include('plugin-update-checker/plugin-update-checker.php');
 
 use Puc_v4_Factory;
 
@@ -31,6 +31,7 @@ class BisonPlugin
       wp_enqueue_script( $scriptID, $script['src'], $script['deps'], $script['version'], $script['footer'] );
     }
   }
+  
   public function do_update_checks(){
     $pluginUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
       'https://github.com/payatola2287/fibichlawfirmcustomcode/',

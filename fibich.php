@@ -5,13 +5,14 @@
    * Description: Custom plugin to add custom functionalities based on client requests
    * Author: Paolo Gallardo | Waymaker Designs
    * Author URI: https:github.com/payatola2287
-   * Version: 1.0
+   * Version: 1.1
    * License: MIT
    */
 
+use BisonPlugin\BisonPlugin;
 
-use BisonPlugin;
+require('class-bison.php');
 
-$instance = new BisonPlugin;
+$instance = new BisonPlugin();
 
 $instance->do_update_checks();
