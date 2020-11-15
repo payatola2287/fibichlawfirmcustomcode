@@ -6,7 +6,6 @@
    * Author: Paolo Gallardo | Waymaker Designs
    * Author URI: https:github.com/payatola2287
    * Version: 1.1
-   * License: MIT
    */
 
 use BisonPlugin\BisonPlugin;
