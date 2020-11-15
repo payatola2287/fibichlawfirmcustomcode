@@ -4,7 +4,7 @@
 class BisonNavWalker extends Walker_Nav_Menu
 {
   private function pull_arrow_svg(){
-    return '<svg id="svg-fancy_icon-82-30701" class="arrow-right"><use xlink:href="#FontAwesomeicon-long-arrow-right"></use></svg>';
+    return '<i class="fas fa-long-arrow-alt-right"></i>';
   }
 
   public function start_el(&$output, $item, $depth = 0, $args = null, $id = 0)

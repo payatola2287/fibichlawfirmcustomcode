@@ -1,4 +1,9 @@
 /* BISON NAV WALKER CSS */
+.bison-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .bison-menu-item-link{
   position: relative;
   display: flex;
@@ -6,8 +11,7 @@
   align-items: flex-start;
   padding: 10px;
 }
-.arrow-right{
-  width: 16px;
-  height: 16px;
-  flex: 1 1 auto;
+.bison-menu-item-link .fas{
+  margin-right: 5px;
+  margin-top: 5px;
 }

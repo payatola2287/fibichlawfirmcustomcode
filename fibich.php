@@ -8,8 +8,6 @@
    * Version: 2.3
    */
 
-use BisonPlugin\BisonPlugin;
-
 require('class-bison.php');
 include('plugin-update-checker/plugin-update-checker.php');
 $instance = new BisonPlugin();
