@@ -1,17 +1,28 @@
 /* BISON NAV WALKER CSS */
+
 .bison-menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid var(--theme-gray);
+    background: var(--theme-dirty-white);
 }
-.bison-menu-item-link{
-  position: relative;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 10px;
+
+.bison-menu-item {
+    border-bottom: 1px solid var(--theme-gray);
 }
-.bison-menu-item-link .fas{
-  margin-right: 5px;
-  margin-top: 5px;
+
+.bison-menu-item-link {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    padding: 20px;
+    color: var(--brand-blue);
+}
+
+.bison-menu-item-link .fas {
+    margin-right: 5px;
+    margin-top: 5px;
 }
