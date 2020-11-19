@@ -14,5 +14,7 @@ Custom created code for website of Fibich Law Firm. Created under Waymaker Desig
 This project is for the client only. You can look it up for code inspirations or code review but please avoid forking or pulling the project. Only here for plugin updates.
 
 == Changelog ==
+= 3.5 =
+Updated ID of the JS script enqueue
 = 3.4 =
 Adde Splide JS to the plugin

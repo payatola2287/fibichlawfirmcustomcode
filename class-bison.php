@@ -27,7 +27,7 @@ class BisonPlugin
         'version' => false,
         'footer' => false
       ],
-      'splide' => [
+      'splide-core' => [
         'src' => plugin_dir_url(__FILE__) . 'vendor/_splide/js/splide.min.js',
         'deps' => [],
         'version' => false,
