@@ -12,3 +12,7 @@ Fibich Law Firm Custom code for certain functionalities of their website. This c
 Custom created code for website of Fibich Law Firm. Created under Waymaker Designs for its client.
 
 This project is for the client only. You can look it up for code inspirations or code review but please avoid forking or pulling the project. Only here for plugin updates.
+
+== Changelog ==
+= 3.4 =
+Adde Splide JS to the plugin
