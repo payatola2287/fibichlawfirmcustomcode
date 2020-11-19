@@ -26,9 +26,27 @@ class BisonPlugin
         'deps' => [],
         'version' => false,
         'footer' => false
+      ],
+      'splide' => [
+        'src' => plugin_dir_url(__FILE__) . 'vendor/_splide/js/splide.min.js',
+        'deps' => [],
+        'version' => false,
+        'footer' => false
       ]
     ];
     $styles = [
+      'splide' => [
+        'src' => plugin_dir_url(__FILE__) . 'vendor/_splide/css/splide.min.css',
+        'deps' => [],
+        'version' => false,
+        'footer' => false
+      ],
+      'splide-core' => [
+        'src' => plugin_dir_url(__FILE__) . 'vendor/_splide/css/splide-core.min.css',
+        'deps' => [ 'splide' ],
+        'version' => false,
+        'footer' => false
+      ],
       'fibichcustom' => [
         'src' => plugin_dir_url(__FILE__) . 'css/site.css',
         'deps' => [],
